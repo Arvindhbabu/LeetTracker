@@ -1,0 +1,12 @@
+backend:
+cd backend
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+python main.py
+
+frontend:
+cd frontend
+npm run dev
+
+VITE v7.x.x ready
+➜ Local: http://localhost:5173/
